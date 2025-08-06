@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Contato - Viagens para Praia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Contato e Cadastro de Viagem</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+
+  <main>
+    <form>
+      <h2>Cadastro de Venda</h2>
+
+      <label for="nome">Nome Completo:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone">
+
+      <label for="destino">Destino:</label>
+      <select id="destino" name="destino">
+        <option value="noronha">Fernando de Noronha</option>
+        <option value="jericoacoara">Jericoacoara</option>
+        <option value="arraial">Arraial do Cabo</option>
+        <option value="porto">Porto de Galinhas</option>
+      </select>
+
+      <label for="data">Data da Viagem:</label>
+      <input type="date" id="data" name="data">
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+  <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/38/ba/17/ondas-praia-resort.jpg?w=500&h=-1&s=1" alt="0">
+  </main>
+</body>
+</html>
